@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Hepta+Slab|Indie+Flower|Lexend+Tera&display=swap"); 
+
+
+
+
+.fiesta{
+    font-size: 1em;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 1px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.invitacion{
+    width: 80%;
+    margin: 5px auto 2px;
+    border: 1px solid black;
+
+    background-color: #9575cd;
+    color: white;
+    box-shadow: 0px 1px 2px rgb(20, 20, 20);
+    padding: 10px;
+
+    min-height: 100px;
+}
+
+.card:hover{
+    border-left-color: #2196f3;
+    background-color: #f48fb1;
+}
+
+
+.card{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.card  img{
+    display: block;
+
+}
+.card img:hover{
+    width: 120%;
+}
+
+.fiesta:hover{
+    border-left-color: #2196f3;
+    background-color: #f48fb1;
+}

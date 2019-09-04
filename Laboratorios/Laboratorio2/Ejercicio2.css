@@ -27,6 +27,10 @@
         box-shadow: none;
     }
 
+    .btn:hover{
+        opacity: 1.0;
+    }
+
     /*
         Sección Tamaños
         

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Courgette|Indie+Flower|Luckiest+Guy|Shadows+Into+Light&display=swap');
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-image: url("imagenes/fondo3.jpg");
+    background-size:100% 100%;
+}
+
+.principal{
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+      
+}
+
+.footer{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .contenido{
+    height: 80%;
+ }
+ 
+ h1{
+    font-family: 'Shadows Into Light', cursive;
+    text-transform: uppercase;
+ }
+
+ /*Imagenes circulares*/
+ .image{
+    display: grid;
+    margin: 12em auto;
+    width: 50%;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: minmax(5em, 10em);
+    grid-gap: 1em;
+    grid-auto-flow: row dense;
+}
+
+img{
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
+}
+
+.img9, .img10, .img11, .img12, .img13, .img14, .img16{
+    width:75px;
+    height:75px;
+    border-radius:150px;
+}
+
+.img1 , .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+    width:75px;
+    height:75px;
+    border-radius:150px;
+}
+
+
+/*Botones*/
+.btn.open{
+    background: #4db6ac;
+    border-radius: 0.7em;
+
+    margin: 1em 1em;
+    font-family: 'Courgette', cursive;
+    color: rgb(46, 43, 43);
+}
+
+.btn.dow{
+    background: #81c784;
+    border-radius: 0.7em;
+
+    margin: 1em 1em;
+    font-family: 'Courgette', cursive;
+    color: rgb(46, 43, 43);
+}
+
+.btn.faq{
+    background: #aed581;
+    border-radius: 0.7em;
+
+    margin: 1em 4em 1em 1em;
+    font-family: 'Courgette', cursive;
+    color: rgb(46, 43, 43);
+}
+
+.btn.cont{
+    background: #4db6ac;
+    border-radius: 0.7em;
+
+    margin: 1em 4em;
+    font-family: 'Courgette', cursive;
+    color: rgb(46, 43, 43);
+    text-decoration: underline rgb(46, 43, 43);
+}
+
+.btn.help{
+    background: #4db6ac;
+    border-radius: 0.7em;
+    
+    margin: 1em 4em;
+    font-family: 'Courgette', cursive;
+    color: rgb(46, 43, 43);
+    text-decoration: underline rgb(46, 43, 43);
+}
+
+.btn:hover{
+    background: transparent;
+    color: black !important;
+}
+
+/*Fin botones*/
+

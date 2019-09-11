@@ -1,1 +1,16 @@
-$colorMain: #7986cb;
+$colorBtn1: #aed581;
+$colorBtn2: #81c784;
+$colorBtn345: #4db6ac; 
+$letters: 'Shadows Into Light', cursive;
+
+@mixin color($col) {
+    font-family: 'Courgette', cursive;
+    color: rgb(46, 43, 43);
+    border-radius: 0.4em;
+    
+    &:hover{
+        background: $col;
+        color: black !important;
+    }
+}
+

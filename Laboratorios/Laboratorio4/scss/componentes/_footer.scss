@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.footer .btn{
+    margin: 1em 4em;
+}
+
+.btn.cont, .btn.help{
+    @include color(transparent);
+    background: $colorBtn345;
+    text-decoration: underline rgb(46, 43, 43);
+}

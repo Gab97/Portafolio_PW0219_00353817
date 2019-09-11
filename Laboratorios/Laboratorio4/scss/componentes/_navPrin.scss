@@ -1,0 +1,25 @@
+.principal {
+  display: flex;
+  justify-content: flex-end;
+  height: 10%;
+}
+
+.principal .btn {
+  margin: 1em 1em;
+}
+
+.btn.faq {
+  margin: 1em 4em 1em 1em;
+  @include color(transparent);
+  background: $colorBtn1;
+}
+
+.btn.dow {
+  @include color(transparent);
+  background: $colorBtn2;
+}
+
+.btn.open {
+  @include color(transparent);
+  background: $colorBtn345;
+}

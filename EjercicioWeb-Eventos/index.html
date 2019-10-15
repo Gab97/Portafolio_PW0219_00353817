@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap1.css">
+    <title>ejercicio</title>
+
+</head>
+
+<body onload="main()" class="container">
+
+    <div>
+
+        <div class="form-group">
+            <label for="eventos">Eventos</label>
+            <input type="text" class="form-text " id="events" name="eventos">
+        </div>
+        <div class="form-group">
+            <label for="accident">¿Accidente?</label> Si
+            <input class="form-check-label" type="radio" name="accident" id="accidente" value="1"> No
+            <input class="form-check-label" type="radio" name="accident" id="no_accidente" value="1">
+
+        </div>
+        <button id="add_evento" class="btn">Agregar evento</button>
+        <button id="add_dia" class="btn btn-primary">Agregar dia</button>
+
+    </div>
+
+    <div class="eventos" id="eventos">
+
+    </div>
+
+    <div class="container">
+        <ul id=lista "">
+
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
